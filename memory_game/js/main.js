@@ -14,9 +14,7 @@ function checkForMatch() {
 function flipCard(cardId) {
 	console.log("User flipped " + cards[cardId]);
 	cardsInPlay.push(card[0]);
-	if (cardsInPlay.length === 1) {
 		checkForMatch();
-	}
 }
 
 flipCard(0);
